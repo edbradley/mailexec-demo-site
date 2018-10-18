@@ -4,3 +4,14 @@ $bg-color:gray;
 body{
     background: $bg-color;
 }
+.header img {
+    float: left;
+    width: 100px;
+    height: 65px;
+  }
+  
+  .header h4 {
+    position: relative;
+    top: 5px;
+    left: 10px;
+  }
