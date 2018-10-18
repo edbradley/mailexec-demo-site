@@ -3,10 +3,10 @@ version: 0.1
 phases:
   install:
     commands:
-      - npm test
+      
   build:
     commands:
-      - npm test
+      
   post_build:
     commands:
       - aws --region us-east-1 s3 sync ./src/ s3://www.mailexec.net/ --acl=public-read --delete
