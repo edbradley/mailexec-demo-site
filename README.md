@@ -1,4 +1,4 @@
-# **bs4starter** - Bootstrap 4 Starter Pack *(For Bootstrap Version 4.X)*
+# **bs4-starter** - Bootstrap 4 Starter Pack
 
 **Version:** 1.0.0
 
