@@ -1,12 +1,15 @@
 version: 0.1
-
+# AWS CodePipeline Specification
 phases:
+  # Install Dependencies in AWS Build Environment (N/A)
   install:
     commands:
-      
+  
+  # Run Build Commands in AWS Build Environment (N/A)    
   build:
     commands:
-      
+  
+  # Deploy Code to AWS S3 Static Website Bucket    
   post_build:
     commands:
       - aws --region us-east-1 s3 sync ./src/ s3://mailexec.net/ --acl=public-read --delete
