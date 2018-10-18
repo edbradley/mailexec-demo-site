@@ -9,4 +9,4 @@ phases:
       
   post_build:
     commands:
-      - aws --region us-east-1 s3 sync ./src/ s3://www.mailexec.net/ --acl=public-read --delete
+      - aws --region us-east-1 s3 sync ./src/ s3://mailexec.net/ --acl=public-read --delete
