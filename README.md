@@ -1,4 +1,4 @@
-# **bs4-starter** - Bootstrap 4 Starter Pack
+# **mailexec-demo-site** mailEXEC Demo Web Application Site
 
 **Version:** 1.0.0
 
